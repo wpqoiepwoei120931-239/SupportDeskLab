@@ -7,7 +7,6 @@ namespace SupportDeskLab
 {
    
      
-
     class Program
     {
         static int NextTicketId = 1;
@@ -15,8 +14,6 @@ namespace SupportDeskLab
         //Create Customer Dictionary
         //create Ticket Queue
         //Create UndoEvent stack
-
-
 
         static void Main()
         {
@@ -58,7 +55,7 @@ namespace SupportDeskLab
          */
         static void initCustomer()
         {
-            //add 3 default Customer Herer
+            //uncomments these 3 lines after you create the Customer Dictionary
             //Customers["C001"] = new Customer("C001", "Ava Martin", "ava@example.com");
             //Customers["C002"] = new Customer("C002", "Ben Parker", "ben@example.com");
             //Customers["C003"] = new Customer("C003", "Chloe Diaz", "chloe@example.com");
